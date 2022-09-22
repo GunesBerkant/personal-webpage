@@ -1,0 +1,36 @@
+/* HTML'de yazdigimiz kodlari buraya tasidik. EXTERNAL CSS örnegi*/
+body {
+    background-color: rgb(125, 229, 243);
+    color: rgb(34, 120, 119); /* TEXT COLOR    */
+}
+
+h1 {
+    color: rgb(21, 21, 161);
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: rgb(70, 70, 255);
+}
+
+hr {
+    background-color: none;
+
+    /* top= dotted, left and right = none, bottom = none */
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 10%;
+}
+
+img {
+    width: 240px;
+    height: 300px;
+}
+.circular {
+    border-radius: 100%;
+}
